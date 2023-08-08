@@ -88,9 +88,9 @@ function JobListing() {
         <h2>{job.position}</h2>
       </div>
       <div className='main-content'>
-          <span className='main-content'>{`${job.postedAt} . `}</span>
-          <span className='main-content'>{`${job.contract} . `}</span>
-          <span className='main-content'>{job.location}</span>
+          <span className='content-item'>{`${job.postedAt} . `}</span>
+          <span className='content-item'>{`${job.contract} . `}</span>
+          <span className='content-item'>{job.location}</span>
       </div>
 
       <div className="sidebar">
